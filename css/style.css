@@ -1,4 +1,149 @@
+.header {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.header__inner {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header__wrapper {
+  position: relative;
+  display: block;
+  margin-left: 25px;
+}
+
+.header__title {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.header__desc, .header__tel {
+  color: #242424;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.header__photo {
+  position: absolute;
+  left: -22px;
+  top: 2px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.intro {
+  position: relative;
+  max-width: 100%;
+  min-height: 700px;
+  background: url("../img/intro/intro-bg.webp") center center/cover no-repeat;
+}
+
+.intro__inner {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro .link__item {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.intro .link__item:last-child {
+  margin-right: 0;
+}
+
+.intro .link__item:hover {
+  text-decoration: underline;
+}
+
+.intro__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.intro__title {
+  margin-top: 130px;
+  max-width: 530px;
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 48px;
+}
+
+.intro__text {
+  max-width: 430px;
+  margin-top: 25px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.intro__text span {
+  font-weight: 400;
+}
+
+.intro__btn {
+  margin-top: 60px;
+}
+
+.intro__phone {
+  position: absolute;
+  bottom: -4px;
+  left: 57%;
+}
+
+.btn {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding: 21px 46px 21px 45px;
+  -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 0 7px rgba(0, 0, 0, 0.07);
+  background-color: #00c2f0;
+  border-radius: 6px;
+  text-decoration: none;
+  border-color: #00c2f0;
+}
+
+.btn:hover {
+  background-color: #00ADD9;
+}
+
 .container {
   width: 1140px;
   margin: 0 auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
