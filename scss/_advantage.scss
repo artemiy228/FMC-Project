@@ -1,0 +1,40 @@
+.advantage {
+	min-height: 900px;
+	width: 100%;
+	background-color: #fff;
+
+	&__wrapper {
+		margin: 80px 0;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	&__block {
+		position: relative;
+	}
+
+	&__text {
+		position: absolute;
+		top: 180px;
+		transform: translateX(50%);
+		max-width: 180px;
+		text-align: center;
+
+		font-size: 14px;
+		font-weight: 700;
+	}
+	&__center--wrapper {
+		text-align: center;
+	}
+	&__title {
+		margin-top: 20px;
+		margin-bottom: 0;
+		font-size: 48px;
+		font-weight: 700;
+		text-align: center;
+	}
+	&__wrapper--second {
+		margin-top: 30px;
+	}
+}
