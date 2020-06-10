@@ -1,5 +1,5 @@
 .advantage {
-	min-height: 900px;
+	min-height: 780px;
 	width: 100%;
 	background-color: #fff;
 
@@ -24,9 +24,11 @@
 		font-size: 14px;
 		font-weight: 700;
 	}
+
 	&__center--wrapper {
 		text-align: center;
 	}
+
 	&__title {
 		margin-top: 20px;
 		margin-bottom: 0;
@@ -34,6 +36,7 @@
 		font-weight: 700;
 		text-align: center;
 	}
+
 	&__wrapper--second {
 		margin-top: 30px;
 	}

@@ -1,0 +1,49 @@
+.slider {
+	width: 100%;
+	height: 890px;
+	background: url(../img/slider/slider-bg.jpg) center center / cover no-repeat;
+
+	&__wrapper {
+		color: #fff;
+		text-align: center;
+	}
+
+	&__title {
+		font-weight: 900;
+		font-size: 30px;
+		padding-top: 20px;
+		max-width: 630px;
+		margin: 0 auto;
+	}
+
+	&__navigation {
+		margin-top: 60px;
+	}
+
+	&__photo {
+		width: 770px;
+		height: 460px;
+	}
+
+	.nav {
+		color: #fff;
+		padding: 25px 30px;
+		border: 1px solid #fff;
+		max-width: 850px;
+		margin: 0 auto;
+
+		&__link {
+			text-decoration: none;
+			color: #fff;
+			margin-right: 30px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			&:hover {
+				color: #00c2f0;
+			}
+		}
+	}
+}

@@ -3,6 +3,10 @@
 @import "_intro";
 @import "_btn";
 @import "_advantage";
+@import "_slider";
+@import "_carousel";
+@import "_score";
+@import "_cloud";
 
 
 
@@ -13,4 +17,10 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }

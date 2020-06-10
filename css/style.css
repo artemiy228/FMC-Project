@@ -41,6 +41,12 @@
           transform: translateX(-50%);
 }
 
+@media (max-width: 1165px) {
+  header {
+    display: none;
+  }
+}
+
 .intro {
   position: relative;
   max-width: 100%;
@@ -140,7 +146,7 @@
 }
 
 .advantage {
-  min-height: 900px;
+  min-height: 780px;
   width: 100%;
   background-color: #fff;
 }
@@ -188,6 +194,184 @@
   margin-top: 30px;
 }
 
+.slider {
+  width: 100%;
+  height: 890px;
+  background: url(../img/slider/macbook-air.jpg) center center/cover no-repeat;
+}
+
+.slider__wrapper {
+  color: #fff;
+  text-align: center;
+}
+
+.slider__title {
+  font-weight: 900;
+  font-size: 30px;
+  padding-top: 20px;
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.slider__navigation {
+  margin-top: 60px;
+}
+
+.slider__photo {
+  width: 770px;
+  height: 460px;
+}
+
+.slider .nav {
+  color: #fff;
+  padding: 25px 30px;
+  border: 1px solid #fff;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.slider .nav__link {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 30px;
+}
+
+.slider .nav__link:last-child {
+  margin-right: 0;
+}
+
+.slider .nav__link:hover {
+  color: #00c2f0;
+}
+
+.carousel {
+  padding: 80px 0;
+}
+
+.carousel__inner {
+  position: relative;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.carousel .slick-prev,
+.carousel .slick-next {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: -150px;
+  border: none;
+  background: none;
+}
+
+.carousel .slick-prev img,
+.carousel .slick-next img {
+  width: 18px;
+  height: 59px;
+}
+
+.carousel .slick-next {
+  right: -150px;
+  left: auto;
+}
+
+@media (max-width: 400px) {
+  .carousel {
+    padding: 0;
+  }
+}
+
+.score {
+  width: 100%;
+  min-height: 1300px;
+}
+
+.score__title {
+  margin: 0 auto;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  color: #000;
+  max-width: 380px;
+  margin-top: 80px;
+}
+
+.score__wrapper {
+  color: #fff;
+  margin-top: 50px;
+}
+
+.score__block {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  max-width: 49%;
+}
+
+.score__text {
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  color: #fff;
+  text-align: center;
+  max-width: 260px;
+}
+
+.cloud {
+  width: 100%;
+  height: 580px;
+  background: url("../img/cloud/cloud-bg.jpg") center center/cover no-repeat;
+}
+
+.cloud__title {
+  margin: 0 auto;
+  font-weight: 900;
+  font-size: 30px;
+  max-width: 380px;
+  text-align: center;
+  color: #fff;
+  padding-top: 70px;
+}
+
+.cloud__block {
+  display: inline-block;
+  width: 49%;
+  margin-top: 100px;
+}
+
+.cloud__text {
+  font-weight: 900;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  max-width: 490px;
+}
+
+.cloud__wrapper {
+  margin-top: 30px;
+}
+
+.cloud__desc {
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  max-width: 490px;
+}
+
+.cloud__block--one {
+  text-align: right;
+}
+
+.cloud__block--tho {
+  display: inline-block;
+  width: 49%;
+  padding-left: 90px;
+}
+
 .container {
   width: 1140px;
   margin: 0 auto;
@@ -195,4 +379,11 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
